@@ -1,0 +1,51 @@
+header{
+    display: flex;
+    background-color: #080C14CC;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    height: 36px;
+    padding: 14px 24px;
+}
+.títuloHeader{
+    display: flex;
+    gap:10px;
+}
+.logo{
+    display: flex;
+    background-color: #2563EB;
+    border-radius: 12px;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+}
+.btnExplorar{
+    display: flex;
+    border-radius: 16px;
+    padding: 8px 16px;
+    gap: 8px;
+    background-color: #2563EB;
+    justify-content: center;
+    align-items: center;
+}
+.btnExplorar img{
+    width: 13px;
+    height: 13px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+header nav a{
+    border-radius: 12px;
+    padding: 8px 16px;
+    color: #64748B;
+    text-decoration: none;
+}
+#self{
+    background-color: #2563EB1A;
+    color: #2563EB;
+}

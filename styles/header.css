@@ -6,12 +6,13 @@ header{
     justify-content: space-between;
     height: 36px;
     padding: 14px 24px;
+    
 }
 .títuloHeader{
     display: flex;
     gap:10px;
 }
-.logo{
+.logoHeader{
     display: flex;
     background-color: #2563EB;
     border-radius: 12px;
@@ -44,6 +45,10 @@ header nav a{
     padding: 8px 16px;
     color: #64748B;
     text-decoration: none;
+}
+header a{
+    text-decoration: none;
+    color: white;
 }
 #self{
     background-color: #2563EB1A;

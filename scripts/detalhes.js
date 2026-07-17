@@ -118,11 +118,10 @@ async function carregarVeiculo() {
   const id = Number(params.get("id"));
 
   try {
-    const resposta = await fetch("../carrinhos.JSON");
-    if (!resposta.ok) throw new Error("JSON indisponível");
+    const resposta = await fetch(`http://localhost:3001/carros/${id}`);
+    if (!resposta.ok) throw new Error("Carro não encontrado");
 
-    const dados = await resposta.json();
-    const carro = dados.carros.find((item) => item.id === id);
+    const carro = await resposta.json();
 
     if (!carro) {
       mostrarErro();

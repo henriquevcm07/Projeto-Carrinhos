@@ -1,0 +1,418 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:rgba(8, 12, 20, 1);
+}
+
+#título{
+    width: 1064px;
+    height: 84px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+
+#título p{
+    height: 16px;
+    font-family: Cousine;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: rgba(37, 99, 235, 1);
+}
+
+#título .contato{
+    height: 68px;
+    padding-top: 8px;
+
+}
+
+#título .contato h1{
+    width: 202px;
+    height: 60px;
+    font-family: Barlow Condensed;
+    font-weight: 900;
+    font-style: Black;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 0px;
+    color: rgba(241, 245, 249, 1);
+}
+
+.container-margin{
+    width: 1064px;
+    margin: 0 auto;
+    height: 692px;
+    padding-top: 48px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    width: 1164px;
+    height: 644px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.formulário{
+    width: 622.4px;
+    height: 644px;
+}
+
+form{
+    width: 622.4px;
+    height: 431px;
+    border-radius: 16px;
+    border-width: 1px;
+    padding: 24px;
+    background-color: rgba(13, 19, 34, 1);
+    border: 1px solid rgba(37, 99, 235, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+#nome_e_email{
+    width: 572.4px;
+    height: 63px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nome_e_email h4{
+    width: 278.18px;
+    height: 22px;
+    padding-bottom: 6px;
+    font-family: Cousine;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: rgba(100, 116, 139, 1);
+}
+
+#nome{
+    width: 278.18px;
+    height: 63px;
+}
+
+#email{
+    width: 278.2px;
+    height: 63px;
+}
+
+#nome input, #email input{
+    width: 278.18px;
+    height: 42px;
+    padding: 10px 16px;
+    border-radius: 16px;
+    border-width: 1px;
+    background-color: rgba(20, 29, 48, 1);
+    border: 1px solid rgba(37, 99, 235, 0.15);
+    color: rgba(241, 245, 249, 1);
+    box-sizing: border-box;
+}
+
+#assunto{
+    width: 572.390625px;
+    height: 80px;
+    padding-top: 16px;
+}
+
+#assunto h4{
+    width: 572.4px;
+    height: 22px;
+    padding-bottom: 6px;
+    font-family: Cousine;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: rgba(100, 116, 139, 1);
+
+}
+
+#assunto input{
+    width: 572.4px;
+    height: 42px;
+    padding: 10px 16px;
+    border-radius: 16px;
+    border-width: 1px;
+    background-color: rgba(20, 29, 48, 1);
+    border: 1px solid rgba(37, 99, 235, 0.15);
+    color: rgba(241, 245, 249, 1);
+    box-sizing: border-box;
+}
+
+#mensagem{
+    width: 572.4px;
+    height: 182px;
+    padding: 16px 0;
+}
+
+#mensagem h4{
+    width: 572.4px;
+    height: 22px;
+    padding-bottom: 6px;
+    font-family: Cousine;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: rgba(100, 116, 139, 1);
+}
+
+#mensagem textarea{
+    width: 572.4px;
+    height: 128px;
+    padding: 10px 16px;
+    border-radius: 16px;
+    border-width: 1px;
+    background-color: rgba(20, 29, 48, 1);
+    border: 1px solid rgba(37, 99, 235, 0.15);
+    color: rgba(241, 245, 249, 1);
+    box-sizing: border-box;
+
+}
+
+::placeholder{
+    font-family: Cousine;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: rgba(241, 245, 249, 1);
+}
+
+#enviar{
+    width: 572.4px;
+    height: 56px;
+    border-radius: 16px;
+    background-color: rgba(37, 99, 235, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+#enviar h3{
+    width: 202px;
+    height: 28px;
+    font-family: Inter;
+    font-weight: 900;
+    font-style: Black;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+#informações{
+    width: 401.609375px;
+    height: 644px;
+}
+.margem{
+    width: 401.609375px;
+    padding-top: 16px;
+}
+
+.bloco{
+    width: 401.609375px;
+    height: 82px;
+    display:flex;
+    gap: 16px;
+    border-radius: 16px;
+    border-width: 1px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(13, 19, 34, 1);
+    border: 1px solid rgba(37, 99, 235, 0.15)
+}
+
+.bloco2{
+    width: 401.6px;
+    height: 122px;
+    display: flex;
+    gap: 16px;
+    border-radius: 16px;
+    border-width: 1px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(13, 19, 34, 1);
+    border: 1px solid rgba(37, 99, 235, 0.15);
+}
+
+.imagem{
+    width: 36px;
+    height: 36px;
+    border-radius: 16px;
+    background-color: rgba(37, 99, 235, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parágrafo{
+    width: 140px;
+    height: 40px;
+}
+.p1{
+    width: 130.375px;
+    height: 16px;
+    font-family: Cousine;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: rgba(100, 116, 139, 1);
+}
+
+#numero{
+    width: 130.375px;
+    height: 24px;
+    padding-top: 4px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: rgba(241, 245, 249, 1);
+}
+
+#carrinhos{
+    height: 24px;
+    padding-top: 4px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: rgba(241, 245, 249, 1);
+    width: 138.5;
+}
+
+#endereço{
+    width: 250px;
+    height: 64px;
+    padding-top: 4px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: rgba(241, 245, 249, 1);
+}
+
+#horário{
+    width: 111.796875px;
+    height: 64px;
+    padding-top: 4px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: rgba(241, 245, 249, 1);
+}
+
+#localização{
+    width: 401.609375px;
+    height: 176px;
+    border-radius: 16px;
+    border-width: 1px;
+    background-color: rgba(15, 23, 43, 1);
+    border-top: 1px solid rgba(37, 99, 235, 0.15);
+}
+
+#local{
+    width: 399.609375px;
+    height: 174px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#localização_bloco{
+    width: 103.859375px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+#imagem_centro{
+    width: 103.859375px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#local_imagem{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(37, 99, 235, 1);
+    box-shadow: 0px 0px 20px 0px rgba(37, 99, 235, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#parágrafo1{
+    width: 103.859375px;
+    height: 24px;
+    padding-top: 8px;
+    font-family: Cousine;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(37, 99, 235, 1);
+    box-sizing: border-box;
+}
+
+#parágrafo2{
+    width: 103.859375px;
+    height: 16px;
+    font-family: Cousine;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(100, 116, 139, 1);
+}
+
+#gradiente{
+    width: 399px;
+    height: 174px;
+    opacity: 0.2;
+    background: linear-gradient(90deg, rgba(37, 99, 235, 0.4) 0.25%, rgba(0, 0, 0, 0) 0.25%),linear-gradient(180deg, rgba(37, 99, 235, 0.4) 0.57%, rgba(0, 0, 0, 0) 0.57%);
+
+}

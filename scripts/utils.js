@@ -8,10 +8,14 @@ const STATUS = {
   alugado: {
     label: "Alugado",
     badge: "badge-alugado",
+    labelCatalogo: "Indisponível",
+    badgeCatalogo: "badge-indisponivel",
   },
   manutencao: {
     label: "Manutenção",
     badge: "badge-manutencao",
+    labelCatalogo: "Indisponível",
+    badgeCatalogo: "badge-indisponivel",
   },
 };
 
@@ -39,17 +43,29 @@ function formatarData(iso) {
   return `${dia}/${mes}/${ano}`;
 }
 
-function obterStatusInfo(status) {
-  return STATUS[status] || STATUS.disponivel;
+function obterStatusInfo(status, contexto = "detalhes") {
+  const info = STATUS[status] || STATUS.disponivel;
+
+  if (contexto === "catalogo") {
+    return {
+      label: info.labelCatalogo || info.label,
+      badge: info.badgeCatalogo || info.badge,
+    };
+  }
+
+  return {
+    label: info.label,
+    badge: info.badge,
+  };
 }
 
-function criarBadgeStatus(status) {
-  const info = obterStatusInfo(status);
+function criarBadgeStatus(status, contexto = "detalhes") {
+  const info = obterStatusInfo(status, contexto);
   return `<span class="badge-dot"></span> ${info.label}`;
 }
 
-function aplicarClasseStatus(elemento, status) {
-  const info = obterStatusInfo(status);
+function aplicarClasseStatus(elemento, status, contexto = "detalhes") {
+  const info = obterStatusInfo(status, contexto);
   elemento.className = `badge ${info.badge}`;
 
   if (elemento.id === "veiculo-status-tag") {

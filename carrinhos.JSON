@@ -127,15 +127,9 @@
       "universo_origem": "Os Gatões (The Dukes of Hazzard)",
       "ano_obra": 1979,
       "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7OoDbvoE6QEoBULK9VXbso0EQ72KpqM1xmzJgWp6dPvl60e_uyQVBuKo&s=10",
-      "status_disponibilidade": "alugado",
+      "status_disponibilidade": "disponivel",
       "valor_aluguel_dia": 1200,
-      "locatario": {
-        "nome": "Luke Duke",
-        "documento": "987.654.321-00",
-        "data_inicio_aluguel": "2026-06-30",
-        "data_devolucao_prevista": "2026-07-03",
-        "telefone": "(21) 99999-0002"
-      },
+      "locatario": null,
       "categoria": "série"
     },
     {
@@ -166,15 +160,9 @@
       "universo_origem": "Scooby-Doo",
       "ano_obra": 1969,
       "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrmQhOnRt7R8n-11VpJgMqZj1mJ3qa4m2Qj_mX0FhHKGp1zUpXugQJ4LNU&s=10",
-      "status_disponibilidade": "alugado",
+      "status_disponibilidade": "disponivel",
       "valor_aluguel_dia": 600,
-      "locatario": {
-        "nome": "Norville Rogers",
-        "documento": "111.222.333-44",
-        "data_inicio_aluguel": "2026-06-25",
-        "data_devolucao_prevista": "2026-07-04",
-        "telefone": "(21) 99999-0003"
-      },
+      "locatario": null,
       "categoria": "desenho"
     },
     {
@@ -194,15 +182,9 @@
       "universo_origem": "Transformers",
       "ano_obra": 2007,
       "url_imagem": "https://i.pinimg.com/736x/d4/87/c7/d487c783a0d8244b1b7ee48456acc79c.jpg",
-      "status_disponibilidade": "alugado",
+      "status_disponibilidade": "disponivel",
       "valor_aluguel_dia": 2800,
-      "locatario": {
-        "nome": "Samuel Witwicky",
-        "documento": "333.444.555-66",
-        "data_inicio_aluguel": "2026-06-29",
-        "data_devolucao_prevista": "2026-07-06",
-        "telefone": "(21) 99999-0005"
-      },
+      "locatario": null,
       "categoria": "filme"
     },
     {
@@ -233,15 +215,9 @@
       "universo_origem": "60 Segundos (Gone in 60 Seconds)",
       "ano_obra": 2000,
       "url_imagem": "https://uploads.diariodopoder.com.br/2019/11/Captura-de-Tela-2019-11-08-às-19.16.29-1.png",
-      "status_disponibilidade": "alugado",
+      "status_disponibilidade": "disponivel",
       "valor_aluguel_dia": 1700,
-      "locatario": {
-        "nome": "Memphis Raines",
-        "documento": "444.555.666-77",
-        "data_inicio_aluguel": "2026-06-26",
-        "data_devolucao_prevista": "2026-07-01",
-        "telefone": "(21) 99999-0006"
-      },
+      "locatario": null,
       "categoria": "filme"
     },
     {
@@ -283,15 +259,9 @@
       "universo_origem": "Speed Racer",
       "ano_obra": 1967,
       "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVe4XK9iRgV6wzAAdmUkrq0Pz0j3bes_cXpJOmY1DgdW0abbJ7ZS5t4x8&s=10",
-      "status_disponibilidade": "alugado",
+      "status_disponibilidade": "disponivel",
       "valor_aluguel_dia": 1300,
-      "locatario": {
-        "nome": "Speed Racer",
-        "documento": "555.666.777-88",
-        "data_inicio_aluguel": "2026-06-28",
-        "data_devolucao_prevista": "2026-07-02",
-        "telefone": "(21) 99999-0007"
-      },
+      "locatario": null,
       "categoria": "desenho"
     },
     {
@@ -333,15 +303,9 @@
       "universo_origem": "Corrida Maluca (Wacky Races)",
       "ano_obra": 1968,
       "url_imagem": "https://static.wikia.nocookie.net/wackyraces/images/c/c4/TheMeanMachineWDrivers.png/revision/latest?cb=20240206112038",
-      "status_disponibilidade": "alugado",
+      "status_disponibilidade": "disponivel",
       "valor_aluguel_dia": 950,
-      "locatario": {
-        "nome": "Dick Dastardly",
-        "documento": "666.777.888-99",
-        "data_inicio_aluguel": "2026-06-24",
-        "data_devolucao_prevista": "2026-07-08",
-        "telefone": "(21) 99999-0008"
-      },
+      "locatario": null,
       "categoria": "desenho"
     },
     {
@@ -372,15 +336,9 @@
       "universo_origem": "Jurassic Park",
       "ano_obra": 1993,
       "url_imagem": "https://res.cloudinary.com/mecum/image/upload/v1714137903/auctions/SC24/1119686/741387.jpg",
-      "status_disponibilidade": "alugado",
+      "status_disponibilidade": "disponivel",
       "valor_aluguel_dia": 1300,
-      "locatario": {
-        "nome": "Alan Grant",
-        "documento": "777.888.999-00",
-        "data_inicio_aluguel": "2026-06-29",
-        "data_devolucao_prevista": "2026-07-06",
-        "telefone": "(21) 99999-0009"
-      },
+      "locatario": null,
       "categoria": "filme"
     },
     {
@@ -422,15 +380,9 @@
       "universo_origem": "Star Wars: Uma Nova Esperança",
       "ano_obra": 1977,
       "url_imagem": "https://i.redd.it/11x3unreo3671.jpg",
-      "status_disponibilidade": "alugado",
+      "status_disponibilidade": "disponivel",
       "valor_aluguel_dia": 125000,
-      "locatario": {
-        "nome": "Luke Skywalker",
-        "documento": "888.999.000-11",
-        "data_inicio_aluguel": "2026-06-27",
-        "data_devolucao_prevista": "2026-07-03",
-        "telefone": "(21) 99999-0010"
-      },
+      "locatario": null,
       "categoria": "filme"
     },
     {
@@ -472,15 +424,9 @@
       "universo_origem": "Grease - Nos Tempos da Brilhantina",
       "ano_obra": 1978,
       "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC-PPh7MdVQBv8cf9rD4XHMk45duWsB6-g67qUIRidRXOH4lbZ6c-BHIc&s=10",
-      "status_disponibilidade": "alugado",
+      "status_disponibilidade": "disponivel",
       "valor_aluguel_dia": 1050,
-      "locatario": {
-        "nome": "Danny Zuko",
-        "documento": "999.000.111-22",
-        "data_inicio_aluguel": "2026-06-30",
-        "data_devolucao_prevista": "2026-07-07",
-        "telefone": "(21) 99999-0011"
-      },
+      "locatario": null,
       "categoria": "filme"
     },
     {
@@ -511,15 +457,9 @@
       "universo_origem": "Motoqueiro Fantasma (Ghost Rider)",
       "ano_obra": 2007,
       "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUM50KrmLsjznke3vgVgtoImoEFAUoKNr0lTo55DO3GPw7rjMccUacpAGp&s=10",
-      "status_disponibilidade": "alugado",
+      "status_disponibilidade": "disponivel",
       "valor_aluguel_dia": 1900,
-      "locatario": {
-        "nome": "Johnny Blaze",
-        "documento": "121.232.343-45",
-        "data_inicio_aluguel": "2026-06-26",
-        "data_devolucao_prevista": "2026-07-01",
-        "telefone": "(21) 99999-0012"
-      },
+      "locatario": null,
       "categoria": "filme"
     },
     {
@@ -550,15 +490,9 @@
       "universo_origem": "Homem de Ferro 2",
       "ano_obra": 2010,
       "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr87ZggsuQbgmJS1oJZ71WuJGC5Scyig9EgseW81w5jasIwSdDeAAMuXVs&s=10",
-      "status_disponibilidade": "alugado",
+      "status_disponibilidade": "disponivel",
       "valor_aluguel_dia": 2600,
-      "locatario": {
-        "nome": "Tony Stark",
-        "documento": "343.454.565-67",
-        "data_inicio_aluguel": "2026-06-29",
-        "data_devolucao_prevista": "2026-07-05",
-        "telefone": "(21) 99999-0013"
-      },
+      "locatario": null,
       "categoria": "filme"
     },
     {

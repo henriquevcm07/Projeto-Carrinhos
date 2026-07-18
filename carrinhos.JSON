@@ -7,7 +7,7 @@
       "ano_obra": 2006,
       "url_imagem": "https://upload.wikimedia.org/wikipedia/en/8/82/Lightning_McQueen.png",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 850.0,
+      "valor_aluguel_dia": 850,
       "locatario": null,
       "categoria": "desenho"
     },
@@ -18,7 +18,7 @@
       "ano_obra": 2006,
       "url_imagem": "https://static.wikia.nocookie.net/pixar/images/e/ee/Mater.png/revision/latest?cb=20191003010831&path-prefix=pt",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 400.0,
+      "valor_aluguel_dia": 400,
       "locatario": null,
       "categoria": "desenho"
     },
@@ -29,7 +29,7 @@
       "ano_obra": 2006,
       "url_imagem": "https://static.wikia.nocookie.net/carros/images/d/dd/Doc_Hudson.png/revision/latest?cb=20190509124225&path-prefix=pt-br",
       "status_disponibilidade": "manutencao",
-      "valor_aluguel_dia": 900.0,
+      "valor_aluguel_dia": 900,
       "locatario": null,
       "categoria": "desenho"
     },
@@ -40,7 +40,7 @@
       "ano_obra": 2006,
       "url_imagem": "https://static.wikia.nocookie.net/carros/images/e/e1/Sally_Carrera.png/revision/latest?cb=20200122035435&path-prefix=pt-br",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 750.0,
+      "valor_aluguel_dia": 750,
       "locatario": null,
       "categoria": "desenho"
     },
@@ -50,15 +50,9 @@
       "universo_origem": "Batman Begins",
       "ano_obra": 2005,
       "url_imagem": "https://i.pinimg.com/474x/fc/53/d9/fc53d91d1b6c5291deee7c5f8e5fd381.jpg",
-      "status_disponibilidade": "alugado",
-      "valor_aluguel_dia": 2500.0,
-      "locatario": {
-        "nome": "Bruce Wayne",
-        "documento": "123.456.789-00",
-        "data_inicio_aluguel": "2026-06-28",
-        "data_devolucao_prevista": "2026-07-05",
-        "telefone": "(21) 99999-0001"
-      },
+      "status_disponibilidade": "disponivel",
+      "valor_aluguel_dia": 2500,
+      "locatario": null,
       "categoria": "filme"
     },
     {
@@ -68,7 +62,7 @@
       "ano_obra": 1966,
       "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj6FRkg8rtL5scmZRtodBahtw2xcu1zvxCqC1_NFoVQvFatDSQIpGyw7gN&s=10",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 1900.0,
+      "valor_aluguel_dia": 1900,
       "locatario": null,
       "categoria": "série"
     },
@@ -79,7 +73,7 @@
       "ano_obra": 1989,
       "url_imagem": "https://i0.statig.com.br/bancodeimagens/cz/8k/lo/cz8klotl02isjgci97hjhvnpe.jpg",
       "status_disponibilidade": "manutencao",
-      "valor_aluguel_dia": 2200.0,
+      "valor_aluguel_dia": 2200,
       "locatario": null,
       "categoria": "filme"
     },
@@ -89,15 +83,9 @@
       "universo_origem": "Batman",
       "ano_obra": 1989,
       "url_imagem": "https://static.wikia.nocookie.net/batman/images/9/9b/Batwing89.jpg/revision/latest?cb=20110208165733",
-      "status_disponibilidade": "alugado",
-      "valor_aluguel_dia": 3000.0,
-      "locatario": {
-        "nome": "Richard Grayson",
-        "documento": "222.333.444-55",
-        "data_inicio_aluguel": "2026-06-27",
-        "data_devolucao_prevista": "2026-07-02",
-        "telefone": "(21) 99999-0004"
-      },
+      "status_disponibilidade": "disponivel",
+      "valor_aluguel_dia": 3000,
+      "locatario": null,
       "categoria": "filme"
     },
     {
@@ -107,7 +95,7 @@
       "ano_obra": 1985,
       "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Qo7XXP1m0jzwReIUzts-5k7l1u3yA7v-dv7JhCgtnX82N8tF0IGNU-o&s=10",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 1800.0,
+      "valor_aluguel_dia": 1800,
       "locatario": null,
       "categoria": "filme"
     },
@@ -118,7 +106,7 @@
       "ano_obra": 1982,
       "url_imagem": "https://upload.wikimedia.org/wikipedia/commons/5/5f/KITT1.jpg",
       "status_disponibilidade": "manutencao",
-      "valor_aluguel_dia": 1600.0,
+      "valor_aluguel_dia": 1600,
       "locatario": null,
       "categoria": "série"
     },
@@ -129,7 +117,7 @@
       "ano_obra": 1982,
       "url_imagem": "https://quatrorodas.abril.com.br/wp-content/uploads/2016/11/5669e20e82bee174ca026e18super-maquina-5.jpeg?quality=70&strip=all&strip=all",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 1500.0,
+      "valor_aluguel_dia": 1500,
       "locatario": null,
       "categoria": "série"
     },
@@ -140,7 +128,7 @@
       "ano_obra": 1979,
       "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7OoDbvoE6QEoBULK9VXbso0EQ72KpqM1xmzJgWp6dPvl60e_uyQVBuKo&s=10",
       "status_disponibilidade": "alugado",
-      "valor_aluguel_dia": 1200.0,
+      "valor_aluguel_dia": 1200,
       "locatario": {
         "nome": "Luke Duke",
         "documento": "987.654.321-00",
@@ -157,7 +145,7 @@
       "ano_obra": 1984,
       "url_imagem": "https://g1.globo.com/Noticias/PopArte/foto/0,,15666186-EX,00.jpg",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 1400.0,
+      "valor_aluguel_dia": 1400,
       "locatario": null,
       "categoria": "filme"
     },
@@ -168,7 +156,7 @@
       "ano_obra": 1968,
       "url_imagem": "https://upload.wikimedia.org/wikipedia/commons/b/b2/1963_Herbie.jpg",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 700.0,
+      "valor_aluguel_dia": 700,
       "locatario": null,
       "categoria": "filme"
     },
@@ -179,7 +167,7 @@
       "ano_obra": 1969,
       "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrmQhOnRt7R8n-11VpJgMqZj1mJ3qa4m2Qj_mX0FhHKGp1zUpXugQJ4LNU&s=10",
       "status_disponibilidade": "alugado",
-      "valor_aluguel_dia": 600.0,
+      "valor_aluguel_dia": 600,
       "locatario": {
         "nome": "Norville Rogers",
         "documento": "111.222.333-44",
@@ -196,7 +184,7 @@
       "ano_obra": 2007,
       "url_imagem": "https://e7.pngegg.com/pngimages/273/828/png-clipart-chevrolet-camaro-car-chevrolet-car-performance-car.png",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 2000.0,
+      "valor_aluguel_dia": 2000,
       "locatario": null,
       "categoria": "filme"
     },
@@ -207,7 +195,7 @@
       "ano_obra": 2007,
       "url_imagem": "https://i.pinimg.com/736x/d4/87/c7/d487c783a0d8244b1b7ee48456acc79c.jpg",
       "status_disponibilidade": "alugado",
-      "valor_aluguel_dia": 2800.0,
+      "valor_aluguel_dia": 2800,
       "locatario": {
         "nome": "Samuel Witwicky",
         "documento": "333.444.555-66",
@@ -224,7 +212,7 @@
       "ano_obra": 2007,
       "url_imagem": "https://w7.pngwing.com/pngs/278/45/png-transparent-megatron-optimus-prime-car-truck-vehicle-lend-a-helping-hand-truck-car-mode-of-transport.png",
       "status_disponibilidade": "manutencao",
-      "valor_aluguel_dia": 2600.0,
+      "valor_aluguel_dia": 2600,
       "locatario": null,
       "categoria": "filme"
     },
@@ -235,7 +223,7 @@
       "ano_obra": 1968,
       "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7ItWHSz27TiAr4a_DQT_i0JT5yGRFHbs2wpg_CohpTgv8CxkJf8Yl-mbq&s=10",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 1500.0,
+      "valor_aluguel_dia": 1500,
       "locatario": null,
       "categoria": "filme"
     },
@@ -246,7 +234,7 @@
       "ano_obra": 2000,
       "url_imagem": "https://uploads.diariodopoder.com.br/2019/11/Captura-de-Tela-2019-11-08-às-19.16.29-1.png",
       "status_disponibilidade": "alugado",
-      "valor_aluguel_dia": 1700.0,
+      "valor_aluguel_dia": 1700,
       "locatario": {
         "nome": "Memphis Raines",
         "documento": "444.555.666-77",
@@ -263,7 +251,7 @@
       "ano_obra": 1964,
       "url_imagem": "https://quatrorodas.abril.com.br/wp-content/uploads/2020/10/DB5-e-DBS-anos-1960-da-Aston-Martin-durante-teste-da-Revista-Quatro-Rodas._1-e1604179023489.jpg?quality=70&strip=info",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 2400.0,
+      "valor_aluguel_dia": 2400,
       "locatario": null,
       "categoria": "filme"
     },
@@ -274,7 +262,7 @@
       "ano_obra": 1977,
       "url_imagem": "https://tm.ibxk.com.br/2014/10/20/20165046588712.jpg?ims=1000x400/filters:quality(80)",
       "status_disponibilidade": "manutencao",
-      "valor_aluguel_dia": 2100.0,
+      "valor_aluguel_dia": 2100,
       "locatario": null,
       "categoria": "filme"
     },
@@ -285,7 +273,7 @@
       "ano_obra": 1983,
       "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk35RfIvuZc40BIJZBXhtAslaL3CVTNBqqLmcfDzLh0InSDa0qRuAQqDI&s=10",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 1100.0,
+      "valor_aluguel_dia": 1100,
       "locatario": null,
       "categoria": "série"
     },
@@ -296,7 +284,7 @@
       "ano_obra": 1967,
       "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVe4XK9iRgV6wzAAdmUkrq0Pz0j3bes_cXpJOmY1DgdW0abbJ7ZS5t4x8&s=10",
       "status_disponibilidade": "alugado",
-      "valor_aluguel_dia": 1300.0,
+      "valor_aluguel_dia": 1300,
       "locatario": {
         "nome": "Speed Racer",
         "documento": "555.666.777-88",
@@ -313,7 +301,7 @@
       "ano_obra": 1968,
       "url_imagem": "https://quatrorodas.abril.com.br/wp-content/uploads/2020/01/bullit.jpg?quality=70&strip=info&w=720&crop=1",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 1600.0,
+      "valor_aluguel_dia": 1600,
       "locatario": null,
       "categoria": "filme"
     },
@@ -324,7 +312,7 @@
       "ano_obra": 1983,
       "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlY07j88iVD9z_K6bZ9dxHyjeHZWOsPUWig8hRsCDDegoiG53QMo9FqAmD&s=10",
       "status_disponibilidade": "manutencao",
-      "valor_aluguel_dia": 1000.0,
+      "valor_aluguel_dia": 1000,
       "locatario": null,
       "categoria": "filme"
     },
@@ -335,7 +323,7 @@
       "ano_obra": 1999,
       "url_imagem": "https://blog.pecahoje.com.br/wp-content/uploads/2022/10/pecahoje-blog-simpsons-1.jpg",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 350.0,
+      "valor_aluguel_dia": 350,
       "locatario": null,
       "categoria": "desenho"
     },
@@ -346,7 +334,7 @@
       "ano_obra": 1968,
       "url_imagem": "https://static.wikia.nocookie.net/wackyraces/images/c/c4/TheMeanMachineWDrivers.png/revision/latest?cb=20240206112038",
       "status_disponibilidade": "alugado",
-      "valor_aluguel_dia": 950.0,
+      "valor_aluguel_dia": 950,
       "locatario": {
         "nome": "Dick Dastardly",
         "documento": "666.777.888-99",
@@ -363,7 +351,7 @@
       "ano_obra": 1968,
       "url_imagem": "https://www.shutterstock.com/editorial/image-editorial/M1zakdw2O3T2kdz3OTQy/compact-pussycat-car-driven-cartoon-by-penelope-440nw-390318c.jpg",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 800.0,
+      "valor_aluguel_dia": 800,
       "locatario": null,
       "categoria": "desenho"
     },
@@ -374,7 +362,7 @@
       "ano_obra": 1960,
       "url_imagem": "https://autoranking.com.br/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-20-at-09.48.20.jpeg",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 300.0,
+      "valor_aluguel_dia": 300,
       "locatario": null,
       "categoria": "desenho"
     },
@@ -385,7 +373,7 @@
       "ano_obra": 1993,
       "url_imagem": "https://res.cloudinary.com/mecum/image/upload/v1714137903/auctions/SC24/1119686/741387.jpg",
       "status_disponibilidade": "alugado",
-      "valor_aluguel_dia": 1300.0,
+      "valor_aluguel_dia": 1300,
       "locatario": {
         "nome": "Alan Grant",
         "documento": "777.888.999-00",
@@ -402,7 +390,7 @@
       "ano_obra": 2004,
       "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3QoCzCBvUzYWyIL2gHSLhxz72lZoyOTWdX_zMU26xtMCohfQVtBKEDJk&s=10",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 1750.0,
+      "valor_aluguel_dia": 1750,
       "locatario": null,
       "categoria": "filme"
     },
@@ -413,7 +401,7 @@
       "ano_obra": 2002,
       "url_imagem": "https://nationalmotormuseum.org.uk/media/25ipryny/ford-anglia-105e-harry-potter-film-car-1966.jpg?width=1000&v=1db1e2af11d98b0",
       "status_disponibilidade": "manutencao",
-      "valor_aluguel_dia": 1400.0,
+      "valor_aluguel_dia": 1400,
       "locatario": null,
       "categoria": "filme"
     },
@@ -424,7 +412,7 @@
       "ano_obra": 1963,
       "url_imagem": "https://i.pinimg.com/736x/ca/a9/50/caa950efb2fbb38baa534ff17d28feb9.jpg",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 3200.0,
+      "valor_aluguel_dia": 3200,
       "locatario": null,
       "categoria": "série"
     },
@@ -435,7 +423,7 @@
       "ano_obra": 1977,
       "url_imagem": "https://i.redd.it/11x3unreo3671.jpg",
       "status_disponibilidade": "alugado",
-      "valor_aluguel_dia": 125000.0,
+      "valor_aluguel_dia": 125000,
       "locatario": {
         "nome": "Luke Skywalker",
         "documento": "888.999.000-11",
@@ -452,7 +440,7 @@
       "ano_obra": 1977,
       "url_imagem": "https://wp.rotadeferias.com.br/wp-content/uploads/2019/09/SWGE_WDW_MillenniumFalcon_0813ZR_0490MS.jpg",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 50000000.0,
+      "valor_aluguel_dia": 50000000,
       "locatario": null,
       "categoria": "filme"
     },
@@ -463,7 +451,7 @@
       "ano_obra": 1977,
       "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrR6IO5yyDYJsY-MadIZgSgdcXYidtpGQ_pv3ruYNOrNqdj6mGaKWZkQ&s=10",
       "status_disponibilidade": "manutencao",
-      "valor_aluguel_dia": 350000.0,
+      "valor_aluguel_dia": 350000,
       "locatario": null,
       "categoria": "filme"
     },
@@ -474,7 +462,7 @@
       "ano_obra": 1973,
       "url_imagem": "https://infantv.com.br/infantv/wp-content/uploads/2016/07/chispinha9.jpg",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 650.0,
+      "valor_aluguel_dia": 650,
       "locatario": null,
       "categoria": "desenho"
     },
@@ -485,7 +473,7 @@
       "ano_obra": 1978,
       "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC-PPh7MdVQBv8cf9rD4XHMk45duWsB6-g67qUIRidRXOH4lbZ6c-BHIc&s=10",
       "status_disponibilidade": "alugado",
-      "valor_aluguel_dia": 1050.0,
+      "valor_aluguel_dia": 1050,
       "locatario": {
         "nome": "Danny Zuko",
         "documento": "999.000.111-22",
@@ -502,7 +490,7 @@
       "ano_obra": 1979,
       "url_imagem": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Ford_XB_Falcon_Coupe_Mad_Max_interceptor_replica_crop.jpg",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 1450.0,
+      "valor_aluguel_dia": 1450,
       "locatario": null,
       "categoria": "filme"
     },
@@ -513,7 +501,7 @@
       "ano_obra": 2015,
       "url_imagem": "https://static.wikia.nocookie.net/roadwarrior/images/d/d8/Fury_Road_WarRig_001.jpg/revision/latest?cb=20150428013347",
       "status_disponibilidade": "manutencao",
-      "valor_aluguel_dia": 23000.0,
+      "valor_aluguel_dia": 23000,
       "locatario": null,
       "categoria": "filme"
     },
@@ -524,7 +512,7 @@
       "ano_obra": 2007,
       "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUM50KrmLsjznke3vgVgtoImoEFAUoKNr0lTo55DO3GPw7rjMccUacpAGp&s=10",
       "status_disponibilidade": "alugado",
-      "valor_aluguel_dia": 1900.0,
+      "valor_aluguel_dia": 1900,
       "locatario": {
         "nome": "Johnny Blaze",
         "documento": "121.232.343-45",
@@ -541,7 +529,7 @@
       "ano_obra": 2011,
       "url_imagem": "https://cdn.rmsothebys.com/1/f/b/6/5/7/1fb65763079a96e7d7395c0ec97dab644bc1ebae.webp",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 2000.0,
+      "valor_aluguel_dia": 2000,
       "locatario": null,
       "categoria": "filme"
     },
@@ -552,7 +540,7 @@
       "ano_obra": 1995,
       "url_imagem": "https://static.wikia.nocookie.net/starcars/images/e/ef/Batmobile_batman_forever_movie_1995_val_kilmer_.jpg/revision/latest/scale-to-width-down/302?cb=20120827203807",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 2150.0,
+      "valor_aluguel_dia": 2150,
       "locatario": null,
       "categoria": "filme"
     },
@@ -563,7 +551,7 @@
       "ano_obra": 2010,
       "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr87ZggsuQbgmJS1oJZ71WuJGC5Scyig9EgseW81w5jasIwSdDeAAMuXVs&s=10",
       "status_disponibilidade": "alugado",
-      "valor_aluguel_dia": 2600.0,
+      "valor_aluguel_dia": 2600,
       "locatario": {
         "nome": "Tony Stark",
         "documento": "343.454.565-67",
@@ -580,7 +568,7 @@
       "ano_obra": 1982,
       "url_imagem": "https://gamesbeat.com/wp-content/uploads/2025/05/4756448797_2258a8a741.jpg",
       "status_disponibilidade": "manutencao",
-      "valor_aluguel_dia": 1850.0,
+      "valor_aluguel_dia": 1850,
       "locatario": null,
       "categoria": "filme"
     },
@@ -591,7 +579,7 @@
       "ano_obra": 1950,
       "url_imagem": "https://static.wikia.nocookie.net/disneyprincesas/images/e/ea/Cinderella-disneyscreencaps_com-5015.jpg/revision/latest?cb=20131210001933&path-prefix=pt-br",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 1600.0,
+      "valor_aluguel_dia": 1600,
       "locatario": null,
       "categoria": "desenho"
     },
@@ -601,15 +589,9 @@
       "universo_origem": "O Expresso Polar (The Polar Express)",
       "ano_obra": 2004,
       "url_imagem": "https://preview.redd.it/polar-express-v0-tnnw7x1nm4hf1.png?width=640&crop=smart&auto=webp&s=12a7e5486b833ffd259726a8980662ef7937e4f7",
-      "status_disponibilidade": "alugado",
-      "valor_aluguel_dia": 2700.0,
-      "locatario": {
-        "nome": "Chris (O Menino)",
-        "documento": "565.676.787-89",
-        "data_inicio_aluguel": "2026-06-24",
-        "data_devolucao_prevista": "2026-12-24",
-        "telefone": "(21) 99999-0014"
-      },
+      "status_disponibilidade": "disponivel",
+      "valor_aluguel_dia": 2700,
+      "locatario": null,
       "categoria": "filme"
     },
     {
@@ -619,7 +601,7 @@
       "ano_obra": 1982,
       "url_imagem": "https://i.pinimg.com/736x/55/0c/d6/550cd68c017b8123a33ccbfd15160d4e.jpg",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 50.0,
+      "valor_aluguel_dia": 50,
       "locatario": null,
       "categoria": "filme"
     },
@@ -630,7 +612,7 @@
       "ano_obra": 1970,
       "url_imagem": "https://vizinhancadochaves.wordpress.com/wp-content/uploads/2015/02/fusca-poc3a7os-poc3a7os-de-caldas-minas-gerais-mg-homenagem-a-chaves-chapolin-chespirito-turma-do-chaves-carnaval-2015-iv.jpg?w=584&h=438",
       "status_disponibilidade": "disponivel",
-      "valor_aluguel_dia": 300.0,
+      "valor_aluguel_dia": 300,
       "locatario": null,
       "categoria": "série"
     }

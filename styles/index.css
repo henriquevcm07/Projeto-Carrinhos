@@ -180,6 +180,7 @@
     border: 1px;
     padding: 2px 8px;
     gap: 4px;
+    height:fit-content
 }
 .BodyCard h3{
     padding-bottom:2px; 
@@ -204,4 +205,35 @@
     width: 6px;
     height: 6px;
     border-radius: 3px;
+}
+.BodyCard{
+    padding: 16px;
+}
+.AlugarCard h2{
+    padding-top: 2px;
+    color:rgba(37, 99, 235, 1);
+    font-size: 24px;
+}
+.AlugarCard p{
+    padding: 0;
+}
+.btnsCard{
+    padding-top: 12px;
+    gap: 8px;
+    display: flex;
+}
+#Cardbtn1{
+    padding: 8px 0;
+    border-radius: 16px;
+    background-color: rgba(37, 99, 235, 1);
+    flex:6;
+}
+#Cardbtn1 p{
+    color: white;
+}
+#Cardbtn2{
+    flex: 1;
+    border-radius: 16px;
+    padding: 8px 12px;
+    border: 1px solid rgba(37, 99, 235, 0.15);
 }

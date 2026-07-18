@@ -76,6 +76,7 @@ nav ul {
     color: #64748B;
     font-size: 14px;
     font-weight: 500;
+    gap: 15px;
 }
 
 a {
@@ -94,7 +95,7 @@ li {
     font-size: 15px;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 
 main {

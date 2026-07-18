@@ -52,7 +52,36 @@ function renderizarDestaque(destaque,i){
         </div>
     `;
 };
-
-
 BuscarDestaques();
+
+async function BuscarVitrine(){
+    try{
+        const request = await fetch(`http://localhost:3001/carros`);
+        const carros = await request.json();
+        const vitrine = carros.sort(()=>Math.random()-0.5).slice(0,4);
+        console.log(vitrine);
+        vitrine.forEach((carro,indice)=>{
+            RenderizarVitrine(carro, indice);
+        })
+        
+    } catch{
+        console.log("ocorreu um erro");
+    };
+};
+function RenderizarVitrine(carro,i){
+    let corDisp = '0, 188, 125';
+    if(carro.status_disponibilidade === 'manutencao'){
+        corDisp = '254, 154, 0';
+    }
+    else if(carro.status_disponibilidade === 'alugado'){
+        corDisp = '251, 44, 54';
+    }
+    const card = document.getElementById(`V${i}`)
+    card.innerHTML = `
+    <div class = "VitrineImg" style="background-image:url('${carro.url_imagem}')">
+        <p class = "VitrineNome">${carro.nome}</p>
+        <div class="VitrineDisp" style='color: rgb(${corDisp},1); border:1px solid rgb(${corDisp},0.25); background-color: rgb(${corDisp},0.1)'><div class='bolinha' style="background-color: rgb(${corDisp},1)"></div>${carro.status_disponibilidade}</div>
+    `
+}
+BuscarVitrine();
 

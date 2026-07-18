@@ -44,7 +44,9 @@ h1 {
     border-bottom:1px solid #242841;
   }
 
-  .reserva-card:last-child{border-bottom:none;}
+  .reserva-card:last-child{
+    border-bottom:none;
+}
 
 .reserva-img {
     width:70px; height:50px; border-radius:6px; object-fit:cover;
@@ -52,9 +54,20 @@ h1 {
     flex-shrink:0;
 }
 
-.reserva-info{flex:1; min-width:0;}
-.reserva-titulo{display:flex; align-items:center; gap:10px; margin-bottom:4px;}
-.reserva-titulo strong{font-size:15px;}
+.reserva-info {
+    flex:1;
+    min-width:0;
+}
+
+.reserva-titulo {
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:4px;
+}
+.reserva-titulo strong{
+    font-size:15px;
+}
 
 .badge {
     font-size:11px;

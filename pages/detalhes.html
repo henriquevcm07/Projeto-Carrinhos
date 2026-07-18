@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalhes do Veículo — Carr{In}hos</title>
+    <link rel="stylesheet" href="../styles/general.css" />
+    <link rel="stylesheet" href="../styles/detalhes.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="../index.html" class="logo">
+        <span class="logo-icon">
+          <img
+            src="../styles/images/logo_carrinho.png"
+            alt="Logo Carr{In}hos"
+          />
+        </span>
+        <span class="logo-text"
+          >Carr<span class="highlight">{In}</span>hos</span
+        >
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+        id="menu-toggle"
+      >
+        ☰
+      </button>
+
+      <nav class="main-nav" id="main-nav">
+        <a href="../index.html">Início</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="reservas.html">Reservas</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+
+      <a href="catalogo.html" class="btn btn-primary btn-explorar">
+        <span>
+          <img
+            src="../styles/images/logo_carrinho.png"
+            alt="Logo Carr{In}hos"
+          />
+        </span>
+        Explorar
+      </a>
+    </header>
+
+    <main class="container detalhes-page">
+      <p class="detalhes-estado" id="detalhes-carregando">
+        Carregando veículo...
+      </p>
+      <p class="detalhes-estado is-hidden" id="detalhes-erro">
+        Veículo não encontrado.
+        <a href="catalogo.html">Voltar ao catálogo</a>
+      </p>
+
+      <div id="detalhes-conteudo" class="is-hidden" hidden>
+        <nav class="breadcrumb" aria-label="Navegação">
+          <a href="../index.html">Início</a>
+          <span class="breadcrumb-sep">›</span>
+          <a href="catalogo.html">Catálogo</a>
+          <span class="breadcrumb-sep">›</span>
+          <span class="breadcrumb-current" id="veiculo-nome-breadcrumb"></span>
+        </nav>
+
+        <div class="detalhes-grid">
+          <div class="detalhes-imagem-col">
+            <div class="detalhes-imagem-wrapper">
+              <img 
+                id="veiculo-imagem"
+                src=""
+                alt="Imagem do veículo"
+              />
+              <span
+                class="badge badge-categoria"
+                id="veiculo-categoria-tag"
+              ></span>
+              <span
+                class="badge badge-disponivel badge-status"
+                id="veiculo-status-tag"
+              ></span>
+            </div>
+          </div>
+
+          <div class="detalhes-info">
+            <h1 id="veiculo-nome"></h1>
+
+            <p class="detalhes-origem">
+              <span id="veiculo-obra"></span>
+              (<span id="veiculo-ano"></span>)
+            </p>
+
+            <p class="detalhes-descricao" id="veiculo-descricao"></p>
+
+            <div class="detalhes-valor-card">
+              <div class="detalhes-valor-topo">
+                <span class="detalhes-valor-label">Valor por dia</span>
+                <span
+                  class="badge badge-disponivel"
+                  id="veiculo-status-card"
+                ></span>
+              </div>
+              <p class="detalhes-valor" id="veiculo-valor"></p>
+            </div>
+
+            <div class="detalhes-acoes">
+              <a href="alugar.html" class="btn btn-primary" id="btn-reservar"
+                >Reservar Agora</a
+              >
+              <a href="agenda.html" class="btn btn-secondary" id="btn-agenda">
+                <img
+                  src="../styles/images/logo_agenda.png"
+                  alt="Logo Agenda"
+                  class="btn-icon"
+                />
+                Ver Agenda
+              </a>
+            </div>
+
+            <section
+              class="detalhes-locatario is-hidden"
+              id="veiculo-locatario"
+              aria-label="Informações do locatário"
+            >
+              <h2 class="detalhes-locatario-titulo">Veículo alugado</h2>
+              <div class="detalhes-locatario-grid">
+                <div class="detalhes-locatario-item">
+                  <span class="detalhes-locatario-label">Locatário</span>
+                  <span
+                    class="detalhes-locatario-valor"
+                    id="locatario-nome"
+                  ></span>
+                </div>
+                <div class="detalhes-locatario-item">
+                  <span class="detalhes-locatario-label">Telefone</span>
+                  <span
+                    class="detalhes-locatario-valor"
+                    id="locatario-telefone"
+                  ></span>
+                </div>
+                <div class="detalhes-locatario-item">
+                  <span class="detalhes-locatario-label"
+                    >Início do aluguel</span
+                  >
+                  <span
+                    class="detalhes-locatario-valor"
+                    id="locatario-inicio"
+                  ></span>
+                </div>
+                <div class="detalhes-locatario-item">
+                  <span class="detalhes-locatario-label"
+                    >Devolução prevista</span
+                  >
+                  <span
+                    class="detalhes-locatario-valor"
+                    id="locatario-devolucao"
+                  ></span>
+                </div>
+              </div>
+            </section>
+
+            <section class="detalhes-especificacoes">
+              <h2 class="especificacoes-titulo">Detalhes</h2>
+              <div class="especificacoes-grid">
+                <div class="especificacao-card">
+                  <span class="especificacao-label">Obra de Origem</span>
+                  <span
+                    class="especificacao-valor"
+                    id="veiculo-universo"
+                  ></span>
+                </div>
+                <div class="especificacao-card">
+                  <span class="especificacao-label">Ano da Obra</span>
+                  <span
+                    class="especificacao-valor"
+                    id="veiculo-ano-card"
+                  ></span>
+                </div>
+                <div class="especificacao-card">
+                  <span class="especificacao-label">Categoria</span>
+                  <span
+                    class="especificacao-valor"
+                    id="veiculo-categoria"
+                  ></span>
+                </div>
+                <div class="especificacao-card">
+                  <span class="especificacao-label">Disponibilidade</span>
+                  <span
+                    class="especificacao-valor"
+                    id="veiculo-disponibilidade"
+                  ></span>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand">
+          <a href="../index.html" class="logo">
+            <span class="logo-icon">
+              <img
+                src="../styles/images/logo_carrinho.png"
+                alt="Logo Carr{In}hos"
+              />
+            </span>
+            <span class="logo-text"
+              >Carr<span class="highlight">{In}</span>hos</span
+            >
+          </a>
+          <p class="footer-desc">
+            A única plataforma de aluguel de veículos icônicos do entretenimento
+            mundial.
+          </p>
+          <div class="footer-social">
+            <a href="#" class="footer-social-btn">IG</a>
+            <a href="#" class="footer-social-btn">TW</a>
+            <a href="#" class="footer-social-btn">YT</a>
+            <a href="#" class="footer-social-btn">TK</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Plataforma</h4>
+          <ul>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="reservas.html">Minhas Reservas</a></li>
+            <li><a href="#">Como Funciona</a></li>
+            <li><a href="#">Preços</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="sobre.html">Sobre Nós</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Parceiros</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <ul class="footer-contato-list">
+            <li>
+              <img
+                src="../styles/images/logo_telefone.png"
+                alt="Logo Telefone"
+                class="footer-contato-icon"
+              />
+              +55 (11) 3456-7890
+            </li>
+            <li>
+              <img
+                src="../styles/images/logo_email.png"
+                alt="Logo Email"
+                class="footer-contato-icon"
+              />
+              oi@carrinhos.com.br
+            </li>
+            <li>
+              <img
+                src="../styles/images/logo_local.png"
+                alt="Logo Local"
+                class="footer-contato-icon"
+              />
+              Av. Cinematográfica, 1985 — Vila Ficção, São Paulo, SP
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Carr{In}hos — Todos os direitos reservados.</span>
+        <span>Projeto educacional · Veículos fictícios</span>
+      </div>
+    </footer>
+
+    <script src="../scripts/detalhes.js"></script>
+  </body>
+</html>

@@ -12,6 +12,7 @@
 .títuloHeader{
     display: flex;
     gap:10px;
+    align-items: center;
 }
 .logoHeader{
     display: flex;

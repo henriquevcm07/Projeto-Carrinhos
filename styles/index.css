@@ -8,6 +8,8 @@
 .idx1 h1{
     font-size: 72px;
     font-family: "Barlow Condensed";
+    line-height: 72px;
+    margin-bottom: 72px;
 }
 .container1 p{
     color: #64748B;

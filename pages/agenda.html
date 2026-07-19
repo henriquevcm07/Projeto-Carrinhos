@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda do Veículo — Carr{In}hos</title>
+    <link rel="stylesheet" href="../styles/general.css" />
+    <link rel="stylesheet" href="../styles/agenda.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="../index.html" class="logo">
+        <span class="logo-icon">
+          <img
+            src="../styles/images/logo_carrinho.png"
+            alt="Logo Carr{In}hos"
+          />
+        </span>
+        <span class="logo-text"
+          >Carr<span class="highlight">{In}</span>hos</span
+        >
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+        id="menu-toggle"
+      >
+        ☰
+      </button>
+
+      <nav class="main-nav" id="main-nav">
+        <a href="../index.html">Início</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="reservas.html">Reservas</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+
+      <a href="catalogo.html" class="btn btn-primary btn-explorar">
+        <span>
+          <img
+            src="../styles/images/logo_carrinho.png"
+            alt="Logo Carr{In}hos"
+          />
+        </span>
+        Explorar
+      </a>
+    </header>
+
+    <main class="container agenda-page">
+      <p class="agenda-estado" id="agenda-carregando">Carregando agenda...</p>
+      <p class="agenda-estado is-hidden" id="agenda-erro">
+        Veículo não encontrado.
+        <a href="catalogo.html">Voltar ao catálogo</a>
+      </p>
+
+      <div id="agenda-conteudo" class="is-hidden" hidden>
+        <a href="catalogo.html" class="agenda-voltar" id="agenda-voltar">
+          <span class="agenda-voltar-icone" aria-hidden="true">←</span>
+          <span id="agenda-voltar-texto">Voltar para o veículo</span>
+        </a>
+
+        <header class="agenda-cabecalho">
+          <p class="agenda-label">Disponibilidade</p>
+          <h1>
+            <span class="agenda-titulo-principal">AGENDA</span>
+            <span class="agenda-titulo-veiculo" id="agenda-nome-veiculo"></span>
+          </h1>
+        </header>
+
+        <section class="agenda-verificacao" aria-labelledby="agenda-verificacao-titulo">
+          <h2 id="agenda-verificacao-titulo">Verificar Disponibilidade</h2>
+          <form class="agenda-formulario" id="agenda-formulario">
+            <div class="agenda-campo">
+              <label for="agenda-retirada">Data de Retirada</label>
+              <input type="date" id="agenda-retirada" name="retirada" required />
+            </div>
+            <div class="agenda-campo">
+              <label for="agenda-devolucao">Data de Devolução</label>
+              <input
+                type="date"
+                id="agenda-devolucao"
+                name="devolucao"
+                required
+              />
+            </div>
+            <button
+              type="submit"
+              class="btn btn-verificar"
+              id="agenda-btn-verificar"
+              disabled
+            >
+              Verificar
+            </button>
+          </form>
+          <p
+            class="agenda-resultado is-hidden"
+            id="agenda-resultado"
+            role="status"
+            aria-live="polite"
+          ></p>
+        </section>
+
+        <section class="agenda-calendario" aria-labelledby="agenda-calendario-titulo">
+          <div class="agenda-calendario-topo">
+            <button
+              type="button"
+              class="agenda-mes-btn"
+              id="agenda-mes-anterior"
+              aria-label="Mês anterior"
+            >
+              ‹
+            </button>
+            <h2 id="agenda-calendario-titulo" class="agenda-mes-atual"></h2>
+            <button
+              type="button"
+              class="agenda-mes-btn"
+              id="agenda-mes-proximo"
+              aria-label="Próximo mês"
+            >
+              ›
+            </button>
+          </div>
+
+          <div class="agenda-legenda">
+            <div class="agenda-legenda-item">
+              <span class="agenda-legenda-cor agenda-legenda-disponivel"></span>
+              <span>Disponível</span>
+            </div>
+            <div class="agenda-legenda-item">
+              <span class="agenda-legenda-cor agenda-legenda-reservado"></span>
+              <span>Reservado</span>
+            </div>
+          </div>
+
+          <div class="agenda-dias-semana" aria-hidden="true">
+            <span>Dom</span>
+            <span>Seg</span>
+            <span>Ter</span>
+            <span>Qua</span>
+            <span>Qui</span>
+            <span>Sex</span>
+            <span>Sáb</span>
+          </div>
+
+          <div class="agenda-grade" id="agenda-grade" aria-label="Calendário mensal"></div>
+        </section>
+
+        <aside class="agenda-aviso">
+          <span class="agenda-aviso-icone" aria-hidden="true">i</span>
+          <p>
+            Para reservar, use o campo de verificação acima ou o botão
+            <strong>Reservar Agora</strong> na página do veículo.
+          </p>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand">
+          <a href="../index.html" class="logo">
+            <span class="logo-icon">
+              <img
+                src="../styles/images/logo_carrinho.png"
+                alt="Logo Carr{In}hos"
+              />
+            </span>
+            <span class="logo-text"
+              >Carr<span class="highlight">{In}</span>hos</span
+            >
+          </a>
+          <p class="footer-desc">
+            A única plataforma de aluguel de veículos icônicos do entretenimento
+            mundial.
+          </p>
+          <div class="footer-social">
+            <a href="#" class="footer-social-btn">IG</a>
+            <a href="#" class="footer-social-btn">TW</a>
+            <a href="#" class="footer-social-btn">YT</a>
+            <a href="#" class="footer-social-btn">TK</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Plataforma</h4>
+          <ul>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="reservas.html">Minhas Reservas</a></li>
+            <li><a href="#">Como Funciona</a></li>
+            <li><a href="#">Preços</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="sobre.html">Sobre Nós</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Parceiros</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <ul class="footer-contato-list">
+            <li>
+              <img
+                src="../styles/images/logo_telefone.png"
+                alt="Logo Telefone"
+                class="footer-contato-icon"
+              />
+              +55 (11) 3456-7890
+            </li>
+            <li>
+              <img
+                src="../styles/images/logo_email.png"
+                alt="Logo Email"
+                class="footer-contato-icon"
+              />
+              oi@carrinhos.com.br
+            </li>
+            <li>
+              <img
+                src="../styles/images/logo_local.png"
+                alt="Logo Local"
+                class="footer-contato-icon"
+              />
+              Av. Cinematográfica, 1985 — Vila Ficção, São Paulo, SP
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Carr{In}hos — Todos os direitos reservados.</span>
+        <span>Projeto educacional · Veículos fictícios</span>
+      </div>
+    </footer>
+
+    <script src="../scripts/utils.js"></script>
+    <script src="../scripts/agenda.js"></script>
+  </body>
+</html>

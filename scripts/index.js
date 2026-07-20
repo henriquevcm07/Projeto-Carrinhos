@@ -45,8 +45,8 @@ function renderizarDestaque(destaque,i){
                 <p>por dia</p>
                 <h2>R$ ${destaque.valor_aluguel_dia}</h2>
                 <div class="btnsCard">
-                    <a href="" id="Cardbtn1"><p>Alugar</p></a>
-                    <a href="" id="Cardbtn2"><img src='./styles/images/AgendaCinza.png'></a>
+                    <a href="./pages/alugar.html?id=${destaque.id}" id="Cardbtn1"><p>Alugar</p></a>
+                    <a href="./pages/agenda.html?id=${destaque.id}" id="Cardbtn2"><img src='./styles/images/AgendaCinza.png'></a>
                 </div>    
             </div>
         </div>

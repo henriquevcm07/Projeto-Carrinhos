@@ -35,7 +35,7 @@ function renderizarDestaque(destaque,i){
     const card = document.getElementById(`D${i}`);
     card.innerHTML = `
         <div class="imageCard" style="background-image: url('${destaque.url_imagem}'); display: flex; justify-content: space-between;">                        
-            <div class="categoria" style='color: rgb(${corCat},1); border:1px solid rgb(${corCat},0.25); background-color: rgb(${corCat},0.1);'>${img} ${destaque.categoria}</div>
+            <div class="categoria" style='color: rgb(${corCat},1); border:1px solid rgb(${corCat},0.25); background-color: rgb(${corCat},0.1);'>${img} <span>${destaque.categoria}</span></div>
             <div class="disponibilidade" style='color: rgb(${corDisp},1); border:1px solid rgb(${corDisp},0.25); background-color: rgb(${corDisp},0.1)'><div class='bolinha' style="background-color: rgb(${corDisp},1)"></div>${destaque.status_disponibilidade}</div>
         </div>
         <div class="BodyCard"">

@@ -10,12 +10,15 @@ header{
     font-family: "Inter";
     border-bottom: 1px solid rgba(37, 99, 235, 0.15);
 }
-.títuloHeader{
+ header .títuloHeader{
     display: flex;
     gap:10px;
     align-items: center;
 }
-.logoHeader{
+header .títuloHeader h1{
+    margin: 0;
+}
+header .logoHeader{
     display: flex;
     background-color: #2563EB;
     border-radius: 12px;
@@ -24,7 +27,7 @@ header{
     justify-content: center;
     align-items: center;
 }
-.btnExplorar{
+header .btnExplorar{
     display: flex;
     border-radius: 16px;
     padding: 8px 16px;
@@ -33,12 +36,12 @@ header{
     justify-content: center;
     align-items: center;
 }
-.btnExplorar p{
+header .btnExplorar p{
     font-size: 14px;
     font-family: 'Inter';
     font-weight: 600;
 }
-.btnExplorar img{
+header .btnExplorar img{
     width: 13px;
     height: 13px;
 }
@@ -61,4 +64,7 @@ header a{
 #self{
     background-color: #2563EB1A;
     color: #2563EB;
+}
+header p{
+    color: white;
 }

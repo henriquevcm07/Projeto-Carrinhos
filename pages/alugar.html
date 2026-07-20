@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/alugar.css">
+    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <title>Página para Alugar</title>
+</head>
+<body>
+    <header>
+        <div class="títuloHeader">
+            <div class="logoHeader"><img  style="width: 15px; height:15px" src="../styles/images/logo-carrinhos.png" alt="logo com ícone de carro"></div>
+            <h1>Carr<span style="color:#2563EB;">{in}</span>hos</h1>
+        </div>
+        <nav>
+            <a id="self" href="../index.html">Ínicio</a>
+            <a href="catalogo.html">Catálogo</a>
+            <a href="reservas.html">Reservas</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+        <a href="" class="btnExplorar"><img src="../styles/images/logo-carrinhos.png" alt="logo com ícone de carro"><h2>Explorar</h2></a>
+    </header>
+    <main>
+        <p id="reserva">RESERVA</p>
+        <h1>RESERVAR VEÍCULO</h1>
+
+        <div id="alugar-carregando">Carregando...</div>
+        <div id="alugar-erro" class="is-hidden">Veículo não encontrado ou indisponível.</div>
+
+        <div id="alugar-conteudo" hidden class="is-hidden">
+            <form id="form-reserva">
+                <div class="container-main">
+                    <div class="container-dados">
+                        <div class="container-dados-pessoais">
+                            <h3>Dados Pessoais</h3>
+                            <div class="container-inputs">
+                                <label for="nome-completo">NOME COMPLETO</label>
+                                <input type="text" id="nome-completo" name="nome-completo" required>
+                            </div>
+                            <div class="container-inputs">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="container-inputs">
+                                <label for="cpf">CPF</label>
+                                <input type="text" id="cpf" name="cpf" required>
+                            </div>
+                            <div class="container-inputs">
+                                <label for="telefonel">TELEFONE</label>
+                                <input type="tel" id="telefonel" name="telefone" required>
+                            </div>
+                        </div>
+
+                        <div class="container-dados-reserva">
+                            <h3>Dados da Reserva</h3>
+                            <div class="container-inputs">
+                                <label for="nome-veiuclo">VEÍCULO</label>
+                                <input type="text" id="nome-veiuclo" name="nome-veiculo" readonly>
+                            </div>
+                            <div class="container-inputs">
+                                <label for="data-retirada">DATA DE RETIRADA</label>
+                                <input type="date" id="data-retirada" name="data-retirada" required>
+                            </div>
+                            <div class="container-inputs">
+                                <label for="local-retirada">LOCAL DE RETIRADA</label>
+                                <input type="text" id="local-retirada" name="local-retirada" required>
+                            </div>
+                            <div class="container-inputs">
+                                <label for="data-devolucao">DATA DE DEVOLUÇÃO</label>
+                                <input type="date" id="data-devolucao" name="data-devolucao" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-cardcar">
+                        <img id="alugar-imagem" class="container-img" alt="">
+                        <p id="resumo-nome-veiculo"></p>
+                        <div class="container-infos">
+                            <p>Diária <span id="resumo-diaria"></span></p>
+                            <p>Dias <span id="resumo-dias"></span></p>
+                        </div>
+                        <p id="alugar-disponibilidade" class="is-hidden"></p>
+                        <div class="container-total">
+                            <p><span>Total</span> <span id="resumo-total"></span></p>
+                        </div>
+                    </div>
+
+                    <button id="btn-confirmar-reserva" class="btnConfirmarReserva" type="submit">CONFIRMAR RESERVA</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <section class="Footer1">
+            <div class="container">
+                <div class="tituloFooter">
+                    <div class="logoFooter">
+                        <img  style="width: 13px; height:13px" src="../styles/images/logo-carrinhos.png" alt="logo com ícone de carro"></div><span>Carr<span style="color:#2563EB;">{in}</span>hos</span>
+                    </div>
+                <div class="conteinerBody">
+                    <p>A única plataforma de aluguel de veículos icônicos do entretenimento mundial.</p>
+                </div>
+                <nav class="redes">
+                    <a href=""><p>IG</p></a>
+                    <a href=""><p>TW</p></a>
+                    <a href=""><p>YT</p></a>
+                    <a href=""><p>TK</p></a>
+                </nav>
+            </div>
+            <div class="container">
+                <h2>Plataforma</h2>
+                <div class="conteinerBody">
+                    <a href="">Catálogo</a> 
+                    <a href="">Minhas reservas</a> 
+                    <a href="">Como funciona</a> 
+                    <a href="">Preços</a>
+                </div>
+            </div>
+            <div class="container">
+                <h2>Empresa</h2>
+                <div class="conteinerBody">
+                    <a href="">Sobre nós</a> 
+                    <a href="">Contato</a> 
+                    <a href="">Blog</a> 
+                    <a href="">Parceiros</a> 
+                </div>
+            </div>
+            <div class="container">
+                <h2>Contato</h2>
+                <div class="conteinerBody">
+                    <div class="contato"><img src="../styles/images/Telefone.png" alt="ícone de telefone"><p>+55 (11) 3456-7890</p></div>
+                    <div class="contato"><img src="../styles/images/email.png" alt="ícone de email"><p>oi@carrinhos.com.br</p></div>
+                    <div class="contato"><img src="../styles/images/loc.png" alt="ícone de localização"><p>Av. Cinematográfica, 1985 Vila Ficção — São Paulo, SP</p></div>
+                </div>
+            </div>
+        </section>
+        <section class="Footer2">
+            <p>© 2025 Carr{In}hos — Todos os direitos reservados.</p>
+            <p>Projeto educacional · Veículos fictícios</p>
+        </section>
+    </footer>
+    <script src="../scripts/utils.js"></script>
+    <script src="../scripts/alugar.js"></script>
+</body>
+</html>

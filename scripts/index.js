@@ -34,7 +34,7 @@ function renderizarDestaque(destaque,i){
     }
     const card = document.getElementById(`D${i}`);
     card.innerHTML = `
-        <div class="imageCard" style="background-image: url('${destaque.url_imagem}'); display: flex; justify-content: space-between;">                        
+        <div class="imageCard" style="background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 0%,rgba(10, 17, 31, 0.6) 60%,rgba(10, 17, 31, 1) 100%), url('${destaque.url_imagem}'); display: flex; justify-content: space-between;">                        
             <div class="categoria" style='color: rgb(${corCat},1); border:1px solid rgb(${corCat},0.25); background-color: rgb(${corCat},0.1);'>${img} <span>${destaque.categoria}</span></div>
             <div class="disponibilidade" style='color: rgb(${corDisp},1); border:1px solid rgb(${corDisp},0.25); background-color: rgb(${corDisp},0.1)'><div class='bolinha' style="background-color: rgb(${corDisp},1)"></div>${destaque.status_disponibilidade}</div>
         </div>
@@ -78,7 +78,7 @@ function RenderizarVitrine(carro,i){
     }
     const card = document.getElementById(`V${i}`)
     card.innerHTML = `
-    <div class = "VitrineImg" style="background-image:url('${carro.url_imagem}')">
+    <div class = "VitrineImg" style="background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 0%,rgba(10, 17, 31, 0.6) 60%,rgba(10, 17, 31, 1) 100%),url('${carro.url_imagem}')">
         <p class = "VitrineNome">${carro.nome}</p>
         <div class="VitrineDisp" style='color: rgb(${corDisp},1); border:1px solid rgb(${corDisp},0.25); background-color: rgb(${corDisp},0.1)'><div class='bolinha' style="background-color: rgb(${corDisp},1)"></div>${carro.status_disponibilidade}</div>
     `

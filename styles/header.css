@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');header{
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+header{
     display: flex;
     background-color: #080C14CC;
     color: white;
@@ -7,7 +8,7 @@
     height: 64px;
     padding: 14px 24px;
     font-family: "Inter";
-    
+    border-bottom: 1px solid rgba(37, 99, 235, 0.15);
 }
 .títuloHeader{
     display: flex;
